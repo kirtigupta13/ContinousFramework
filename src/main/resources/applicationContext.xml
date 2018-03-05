@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd  http://www.springframework.org/schema/mvc  http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<context:annotation-config />
+
+	<context:component-scan base-package="com.cerner.devcenter.education" />
+
+	<bean id="skillEvaluator"
+		class="com.cerner.devcenter.education.models.CategorySkillEvaluator" />
+
+	<bean id="resourceDao" class="com.cerner.devcenter.education.dao.SqlResourceDao" />
+
+	<bean id="skillResourceExtractor"
+		class="com.cerner.devcenter.education.models.SkillResourceExtractor">
+		<property name="skillEvaluator" ref="skillEvaluator" />
+		<property name="resourceDao" ref="resourceDao" />
+	</bean>
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="namedParameterJdbcTemplate"
+		class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="i18nBundle" class="java.util.ResourceBundle">
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="basenames" value="i18n" />
+	</bean>
+
+	<bean id="courseDAO" class="com.cerner.devcenter.education.dao.CourseDAOImpl" />
+
+	<bean id="sqlResourceDao" class="com.cerner.devcenter.education.dao.SqlResourceDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxInMemorySize" value="10240" />
+	</bean>
+
+</beans>

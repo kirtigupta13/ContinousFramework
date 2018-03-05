@@ -1,0 +1,28 @@
+body {
+  font-family: "Tahoma", sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+footer a {
+ display: block;
+}
+
+#page-header {
+	border: none;
+	border-bottom: 0.4em solid #007CC3;
+	border-radius: 0.5em;
+	font-size: 150%
+}
+
+.content-wrapper {
+  padding: 0.8em 0.8em 0 0.8em;
+  background-color: #F6F6F6;
+  border-radius: 0.5em;
+}

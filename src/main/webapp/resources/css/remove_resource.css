@@ -1,0 +1,16 @@
+ul {
+  list-style-type: lower-roman;
+  padding: 10px;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.categories {
+  font-weight: bold;
+}
+
+.resources {
+  font-weight: normal;
+}

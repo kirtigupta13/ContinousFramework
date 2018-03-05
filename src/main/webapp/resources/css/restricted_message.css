@@ -1,0 +1,22 @@
+.container {
+    max-width: 60%;
+}
+
+.panel {
+    float: none;
+    margin: 15% auto;
+}
+
+.profile_details_header {
+    font-size: 20px;
+}
+
+.glyphicon-lock {
+    font-size: 50px;
+    text-align: center;
+}
+
+.message_title {
+    font-size: 20px;
+    font-weight: bold;
+}

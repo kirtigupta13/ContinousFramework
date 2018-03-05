@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+.banner-success {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.banner-fail {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.banner, .banner-success, .banner-fail {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#login-box {
+	position: absolute;
+	top: calc(30%);
+	left: calc(40%);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+#login-box input {
+	width: 250px;
+	height: 30px;
+	font-family: 'Exo', sans-serif;
+	font-size: 1em;
+	padding: 4px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	background: linear-gradient(#C7FFB8, #40E842);
+	padding-left: 1em;
+}
+
+h3 {
+	text-align: center;
+}
+
+#login-box h3 {
+	color: white;
+}
+
+/* image source : http://metrowiremedia.com/wp-content/uploads/2014/06/IMG_0049.jpg */
+
+body {
+    background-color: #b0c4de;
+	background-image: url("../images/cernerbackground.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: absolute;
+}

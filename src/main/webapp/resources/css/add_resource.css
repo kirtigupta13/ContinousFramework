@@ -1,0 +1,126 @@
+.section-head {
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    color: blue;
+}
+
+button.btn-mini {
+    height: 14px;
+    line-height: 4px;
+}
+
+.panel-heading {
+    background-color: #428bca;
+}
+
+#panelSmall {
+    margin-top: 15px;
+}
+
+.display-tag {
+    display: inline-block;
+    border: 2px outset #337ab7;
+    background-color: #0092E0;
+    padding: 2px 5px;
+    margin: 3px 3px 0 0;
+    cursor: default;
+}
+
+#currentTags {
+    padding-left: 20px;
+}
+
+.delete-tag {
+    color: #f0f0f0;
+    margin: 0 2px;
+}
+
+.delete-tag:hover {
+    color: #dadada;
+}
+
+.tag-text {
+    font-style: italic;
+    color: white;
+    margin-left: 3px;
+}
+
+.new-autocomplete-icon {
+    color: #0092E0;
+}
+
+.new-item-autocomplete {
+    font-style: italic;
+    margin-left: 4px;
+}
+
+.remove-category {
+    margin-top: 9px;
+}
+
+.remove-category:hover {
+    color: #428bca;
+}
+
+.category-description-dropdown {
+    color: #909090;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+ul.ui-menu {
+    max-height: 220px !important;
+}
+
+.category-delete-column {
+    width: 80px;
+}
+
+.category-difficulty-column {
+    width: 150px;
+}
+
+.category-name-column {
+    width: 200px;
+}
+
+.ui-selectmenu-button {
+    width: 100% !important;
+}
+
+#addCategoryButton {
+    margin-bottom: 10px;
+}
+
+#infoMessageNoCategories {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.table td:first-child {
+    border-left: none;
+}
+
+.table td:last-child {
+    border-right: none;
+}
+
+.table tr:last-child {
+    border-right: none;
+    border-bottom: 1px solid #000;
+}
+
+.hide {
+    display: none;
+}

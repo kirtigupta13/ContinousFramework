@@ -1,0 +1,46 @@
+#noFilterSelected {
+    font-style: italic;
+}
+
+#filterCategoryDropdown {
+    max-width: 500px;
+}
+
+#addCategoryFilterButton {
+    padding: 6px 12px;
+    height: 34px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.delete-filter {
+    color: #f0f0f0;
+    margin: 0 2px;
+}
+
+.delete-filter:hover {
+    color: #dadada;
+}
+
+.category-filter-text {
+    font-style: italic;
+    color: white;
+    margin-left: 3px;
+}
+
+.display-category-filter {
+    display: inline-block;
+    border: 2px outset #337ab7;
+    background-color: #0092E0;
+    padding: 2px 5px;
+    margin: 3px 3px 0 0;
+    cursor: default;
+}
+
+#categoryFilterList {
+    padding-left: 20px;
+}
+
+#feedBackButtons {
+    text-align: right;
+}

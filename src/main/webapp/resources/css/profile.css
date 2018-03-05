@@ -1,0 +1,12 @@
+/*
+ Style sheet for Profile page
+*/
+
+.profile-details {
+	margin: 1em 2em !important;
+	padding: 0 !important;
+}
+
+.profile_details_header {
+	font-weight: bold;
+}

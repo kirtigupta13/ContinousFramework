@@ -1,0 +1,68 @@
+/*
+ Style sheet for Index page
+*/
+body, h1, h2, p {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.head { 
+	position: fixed;
+	width: 100%;
+	height: 4em;
+	background-color: #F0F0F0;
+	border-bottom: 0.5em solid #007CC3;
+}
+
+h1, h2, p {
+	font: "Century Gothic";
+	font-family: "Century Gothic";
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.8em;
+	line-height: 2.2em;
+	margin-left: 0.5em;
+}
+
+h2 {
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.welcomeBox {
+	position: absolute;
+	width: 50%;
+	top: 15%;
+	left: 25%
+}
+
+.boxHead {
+	background: linear-gradient(#C7FFB8, #40E842);
+	border-radius: 1em 1em 0 0;
+}
+
+.boxBody {
+	background-color: #F0F0F0;
+	border-top: none;
+}
+
+p {
+	padding: 1em 1em 0 1em;
+}
+
+#loginButton {
+	padding: 1em;
+}
+
+#loginButton, img, .link {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.link {
+	width: 40%;
+}

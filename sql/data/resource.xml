@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <resource resource_id='1' description='Java tutorial' link='http://www.test.com/Java' skill_level='1'/>
+  <resource resource_id='2' description='Ruby tutorial' link='http://www.test.com/Ruby' skill_level='1'/>
+  <resource resource_id='3' description='Scala tutorial' link='http://www.test.com/Scala' skill_level='1'/>
+  <category_resource_reltn category_id='1' resource_id='1'/>
+  <category_resource_reltn category_id='1' resource_id='2'/>
+  <category_resource_reltn category_id='1' resource_id='3'/>
+</dataset>

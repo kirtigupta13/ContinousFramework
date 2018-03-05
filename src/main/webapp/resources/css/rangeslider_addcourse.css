@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+#difficultyRating label {
+  display: inline-block;
+  text-align: center;
+}
+
+#difficultyRating label:first-child {
+  text-align: left;
+}
+
+#difficultyRating label:last-child {
+  text-align: right;
+}
+
+#difficultyRangeSlider {
+    width: 50%;
+}

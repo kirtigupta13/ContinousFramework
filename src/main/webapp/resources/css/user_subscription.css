@@ -1,0 +1,13 @@
+/*
+ Style sheet for subscriptions page
+*/
+.subscription-box {
+    margin-top: 1cm;
+    padding: 0 !important;
+}
+
+.page {
+    position: relative;
+    height: 100%;
+    margin-top: 1em;
+}

@@ -1,0 +1,36 @@
+/*
+ * Style sheet for Resource page
+ */
+.page {
+    position: relative;
+    height: 100%;
+    margin-top: 1em;
+}
+
+ul.ui-autocomplete {
+    list-style-type: none;
+    padding-right: 15em;
+}
+
+li.resource_list {
+	overflow: auto;
+}
+
+li.resource_list:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+.table:nth-child(odd) {
+    background-color: rgb(238, 238, 238);
+}
+
+.return {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.paginationtable {
+    margin-left: 45em;
+}

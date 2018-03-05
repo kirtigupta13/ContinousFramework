@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+target/
+bin/
+.derby.log
+derby.log
+derbydb/
+catCustomizerTestInput.xml
+inputFile.xml
+.clover
